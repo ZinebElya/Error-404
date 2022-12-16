@@ -9,12 +9,13 @@ html, body {
     background-size: cover;
 }
 
-body{
+.contenu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+    min-height: 100%;
     font-family: 'Segoe UI', Verdana, sans-serif; 
 }
 
@@ -31,7 +32,7 @@ body{
     color: white;
     text-align: center;
     align-items: center;
-    margin: 50px 30px 0 30px;
+    margin: 0 30px;
 }
 
 a.button {
@@ -52,6 +53,17 @@ footer {
 a.button:hover {
     color: rgb(4 16 246);
 }
+
+@media screen and (min-width: 1024px) {
+    .e404 {
+        font-size: 200px;
+    }
+    .text {
+        font-size: 50px;
+    }
+}
+
+
 
 
 
