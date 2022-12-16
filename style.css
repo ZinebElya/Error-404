@@ -1,50 +1,69 @@
-body{
+html, body {
     margin:0;
     padding: 0;
     background-image: url("code01.gif");
-    height:758px;
+    height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     font-family: 'Segoe UI', Verdana, sans-serif; 
 }
 
-header {
-    font-size: 300px;
+.e404 {
+    font-size: 155px;
     font-weight: 700;
     color: white;
-    align-items: center;
-    position:relative;
-    text-align:center;
-    margin-top: 30px;
+   
 }
 
-section {
-    font-size: 60px;
+.text {
+    font-size: 35px;
     font-weight: bold;
     color: white;
-    position:relative;
-    text-align:center;
+    text-align: center;
     align-items: center;
-    margin: 30px 70px;
- 
+    margin: 50px 30px 0 30px;
 }
 
 a.button {
     background-color:rgb(67 148 242) ;
-    font-weight: 700;
+    font-weight: 800;
     border: 2px solid #0e24cf;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     border-radius: 26px;
     padding: 25px;
-    margin-left: 575px;
-      
-}   
+}  
+
+footer {
+    margin-top: 50px; 
+}
 
 a.button:hover {
-    background-color: ;
     color: rgb(4 16 246);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
