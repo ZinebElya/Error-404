@@ -23,8 +23,17 @@ html, body {
     font-size: 155px;
     font-weight: 700;
     color: white;
+
+    animation-name: e404;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
    
 }
+
+@keyframes e404 {
+    from {color: white;}
+    to {color: rgb(6, 117, 245);}
+  }
 
 .text {
     font-size: 35px;
@@ -48,11 +57,38 @@ a.button {
 
 footer {
     margin-top: 50px; 
+    animation: wiggle 2s linear infinite;
 }
+
 
 a.button:hover {
     color: rgb(4 16 246);
 }
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
 
 @media screen and (min-width: 1024px) {
     .e404 {
